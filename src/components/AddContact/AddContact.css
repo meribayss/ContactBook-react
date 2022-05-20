@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  background: rgb(244, 203, 56);
+  background: radial-gradient(
+    circle,
+    rgba(244, 203, 56, 1) 35%,
+    rgba(244, 169, 56, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.addContact {
+  background: rgb(244, 203, 56);
+  background: radial-gradient(
+    circle,
+    rgba(244, 203, 56, 1) 35%,
+    rgba(244, 169, 56, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addContactInputs {
+  background: rgb(245, 37, 87);
+  background: radial-gradient(
+    circle,
+    rgba(245, 37, 87, 1) 35%,
+    rgba(237, 28, 78, 1) 100%
+  );
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+  border-radius: 20px;
+  width: 300px;
+  height: 35px;
+  margin-top: 10px;
+  border: rgb(245, 37, 87) 2px solid;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+
+#addContactBtn {
+  display: block;
+  border-radius: 30px;
+  width: 130px;
+  height: 40px;
+  margin-top: 30px;
+  background: rgb(245, 37, 87);
+  background: radial-gradient(
+    circle,
+    rgba(245, 37, 87, 1) 35%,
+    rgba(237, 28, 78, 1) 100%
+  );
+  color: white;
+  font-weight: 500;
+  border: rgb(245, 37, 87) 2px solid;
+}
+
+#addContactBtn:hover {
+  width: 133px;
+  height: 42px;
+  transition: 0.2s;
+}
+
+.addContactInputs::placeholder {
+  text-align: center;
+  color: white;
+}
+
+#addContact_h {
+  font-weight: 900;
+  font-size: 60px;
+}

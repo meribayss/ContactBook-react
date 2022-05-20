@@ -1,0 +1,66 @@
+.imgContact {
+  width: 500px;
+  height: 400px;
+}
+
+.contactList {
+  background: rgb(244, 203, 56);
+  background: radial-gradient(
+    circle,
+    rgba(244, 203, 56, 1) 35%,
+    rgba(244, 169, 56, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card-body {
+  background: rgb(245, 110, 143);
+  background: linear-gradient(
+    325deg,
+    rgba(245, 110, 143, 1) 35%,
+    rgba(237, 28, 78, 1) 100%
+  );
+}
+
+.card-img {
+  width: 282px;
+  height: 170px;
+}
+
+.card-title.h5 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-text {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contactListBtnCon {
+  display: flex;
+  justify-content: center;
+}
+
+.contactListBtn {
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#btn1 {
+  font-weight: 500;
+}
+
+#btn2 {
+  font-weight: 500;
+}
